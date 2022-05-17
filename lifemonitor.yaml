@@ -35,6 +35,6 @@ push:
     #                                   # by the endpoint `<lifemonitor_url>/registries`
     #                                   # (e.g., https://api.lifemontor.eu/registries)
     - name: "v*.*.*"
-      update_registries: [WorkflowHub Dev, WorkflowHub]
+      update_registries: []
     - name: "*.*.*"
-      update_registries: [WorkflowHub Dev, WorkflowHub]
+      update_registries: []
