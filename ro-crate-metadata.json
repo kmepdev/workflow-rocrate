@@ -37,7 +37,37 @@
         },
         {
             "@id": "workflow.ga",
-            "@type": "File"
+            "@type": [
+                "File",
+                "SoftwareSourceCode",
+                "ComputationalWorkflow"
+            ],
+            "creator": [
+                {
+                    "@id": "#0000-0002-0621-6705"
+                },
+                {
+                    "@id": "#0000-0001-6879-5194"
+                }
+            ],
+            "name": "My Workflow RO-Crate",
+            "programmingLanguage": {
+                "@id": "#galaxy"
+            },
+            "url": "https://github.com/iwc-workflows/fragment-based-docking-scoring",
+            "version": "0.1.2"
+        },
+        {
+            "@id": "#galaxy",
+            "@type": "ComputerLanguage",
+            "identifier": {
+                "@id": "https://galaxyproject.org/"
+            },
+            "name": "Galaxy",
+            "url": {
+                "@id": "https://galaxyproject.org/"
+            },
+            "version": "v19_09"
         }
     ]
 }
